@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #f0efef;
+}
+
+body {
+  background-image: linear-gradient(to right, #01171b, #001537);
+  background-color: rgb(17, 24, 46); /* fallback or base background */
+}
+
+#task-list::-webkit-scrollbar {
+  display: none;
+}
